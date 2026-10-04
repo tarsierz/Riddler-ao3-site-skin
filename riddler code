@@ -1667,8 +1667,7 @@ h4.viewed.heading,
   box-sizing: border-box !important;
   padding-left: 36px !important;
   padding-right: 36px !important;
-  background-image:
-    url("https://i.postimg.cc/RhRfXMPW/riddler-divider-vertical.png"),
+  background-image: url("https://i.postimg.cc/RhRfXMPW/riddler-divider-vertical.png"),
     url("https://i.postimg.cc/RhRfXMPW/riddler-divider-vertical.png") !important;
   background-repeat: repeat-y, repeat-y !important;
   background-position: left top, right top !important;
@@ -2182,4 +2181,18 @@ h4.viewed.heading,
 #outer #main li.collection .icon,
 #outer #main .pseud .icon {
   margin: 4px 0 0 4px !important;
+}
+
+#outer #main .comment .icon .visitor,
+#outer #main .comment .icon img[src$="/images/skins/iconsets/default/icon_user.png"],
+#outer #main .icon img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  background-color: #f4f1e6 !important;
+  border-color: #f4f1e6 !important;
+  box-shadow: 0 0 0 1px #cfcabb,
+    4px 5px 0 rgba(0, 0, 0, 0.55) !important;
+}
+
+#outer #main .comment .icon .visitor::after {
+  color: #6b6b60 !important;
+  text-shadow: none !important;
 }
